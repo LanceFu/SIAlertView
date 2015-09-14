@@ -260,7 +260,7 @@ static SIAlertView *__si_alert_current_view;
 	if (self) {
 		_title = title;
         _message = message;
-        _enabledParallaxEffect = YES;
+        _enabledParallaxEffect = NO;
 		self.items = [[NSMutableArray alloc] init];
 	}
 	return self;
